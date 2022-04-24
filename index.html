@@ -7,6 +7,7 @@
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body style='margin : 0px; overflow: hidden;'>
+	<a-scene embedded arjs>
 
 <!---------------------------------------IT19013374------------------------------------------------------------------>
 		
@@ -15,23 +16,10 @@
 		</a-assets>
 		
 		<a-marker preset="hiro"> 
-		<a-entity obj-model="obj: #tree-obj1;" material="src: model.jpg" position="0 1.5 0" rotation="-90 180 0" scale="1.0 1.0 1.0"></a-entity>
-	<a-image src="SACHIN.png" position="0 1 0" scale="10.2 10.2 10.2"></a-image>  
+		<a-entity obj-model="obj: #tree-obj1;" material="src: model.jpg" position="0 1.5 0" rotation="-90 180 0" scale="1.02 1.02 1.02"></a-entity>
+	<a-text value="\n\nArtifact name: Sarcophagus\nReg no:IT1913374\nName:Sachin Harshitha" height="4" width="4" align="center" weight="bold" rotation="-90 -90 -90" color="#FFFFFF" position="0.4 -1.9 0.9" ></a-text>
 		</a-marker>
-
-		<a-scene embedded arjs>
-			<a-assets>
-				<a-asset-item id="tree-obj" src="10808_Sarcophagus_LOD1.obj"></a-asset-item>
-				<!-- <a-asset-item id="tree-obj" src="asst.obj"></a-asset-item -->
-			</a-assets>
-	
-				<a-marker type="pattern" url="pattern-it19239880.patt"> 
-	
-					<a-entity obj-model="obj: #tree-obj;" material="src: Sarcophagus_diffuse.jpg" position="0 1 0" rotation="-90 180 0" scale="1.02 1.02 1.02"> </a-entity>
-					<a-text value="\n\nArtifact name: Sarcophagus\nReg no:IT19239880\nName:Wijayarathna S.M" height="4" width="4" align="center" weight="bold" rotation="-90 0 0" color="#FFFFFF" position="0 0 0.6"></a-text>
-				</a-marker>
-				<a-entity camera></a-entity>
-		</a-scene>
+		<a-entity camera></a-entity>
 
 
 
@@ -56,13 +44,13 @@
 
 				
 					<a-assets>
-						<a-asset-item id="tree-obj" src="Jar.obj"></a-asset-item>
+						<a-asset-item id="tree-obj2" src="Jar.obj"></a-asset-item>
 						<!-- <a-asset-item id="tree-obj" src="asst.obj"></a-asset-item -->
 					</a-assets>
 			
 						<a-marker type="pattern" url="pattern-IT19006208.patt"> 
 			
-							<a-entity obj-model="obj: #tree-obj;" material="src: Ancient_jar_diffuse.jpg" position="0 0 0" rotation="-90 180 0" scale="0.02 0.02 0.02"> </a-entity>
+							<a-entity obj-model="obj: #tree-obj2;" material="src: Ancient_jar_diffuse.jpg" position="0 1 0" rotation="-90 180 0" scale="1.02 1.02 1.02"> </a-entity>
 							<a-text value="\n\nArtifact name: Ancient jar\nReg no:IT19006208\nName:Ranathunga J.K" height="4" width="4" align="center" weight="bold" rotation="-90 0 0" color="#FFFFFF" position="0 0 0.6"></a-text>
 						</a-marker>
 						<a-entity camera></a-entity>
@@ -71,13 +59,13 @@
 				
 				<!---------------------------------------IT18124040------------------------------------------------------------------>
 					<a-assets>
-						<a-asset-item id="tree-obj" src="13638_Tyrannosaurus_Rex_Skull_Fossil_v1_L1.obj"></a-asset-item>
+						<a-asset-item id="tree-obj3" src="13638_Tyrannosaurus_Rex_Skull_Fossil_v1_L1.obj"></a-asset-item>
 						<!-- <a-asset-item id="tree-obj" src="asst.obj"></a-asset-item -->
 					</a-assets>
 			
 						<a-marker type="pattern" url="pattern-IT18124040.patt"> 
 			
-							<a-entity obj-model="obj: #tree-obj;" material="src: 13638_Tyrannosaurus_Rex_Skull_Fossil_diff.jpg" position="0 0 0" rotation="-90 180 0" scale="0.02 0.02 0.02"> </a-entity>
+							<a-entity obj-model="obj: #tree-obj3;" material="src: 13638_Tyrannosaurus_Rex_Skull_Fossil_diff.jpg" position="0 1 0" rotation="-90 180 0" scale="1.02 1.02 1.02"> </a-entity>
 							<a-text value="\n\nArtifact name: Tyrannosaurus Fossil\nReg no:IT18124040\nName:Gunawardhena N.M" height="4" width="4" align="center" weight="bold" rotation="-90 0 0" color="#FFFFFF" position="0 0 0.6"></a-text>
 						</a-marker>
 						<a-entity camera></a-entity>
